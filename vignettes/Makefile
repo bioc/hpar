@@ -17,11 +17,6 @@ all:
 	make vignettes
 	make clean
 
-setvars:
-ifeq (${R_HOME},)
-R_HOME=	$(shell R RHOME)
-endif
-
 vignettes: 
 	cp hpar.Rnw.knitr hpar.Rnw
 	"$(R_HOME)/bin/R" --vanilla -e "library(knitr); knit2pdf('hpar.Rnw');"
