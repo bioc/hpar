@@ -1,27 +1,45 @@
-CHANGES IN VERSION 1.17.2
+Changes in version 1.18.1
 -------------------------
- o Update to HPA version 16.1 (2017.01.31) <2017-02-14 Tue>
+
+- Re-generate data sets from scripts/getHpaData.R, as discrepancies
+   with the data downloaded form the hpa site were documented by
+   Martin Bush <2017-07-19 Wed>
  
-CHANGES IN VERSION 1.17.1
+Changes in version 1.18.0
 -------------------------
- o Using travis and codecov <2016-12-22 Thu>
- o Migrate vignette to BiocStyle's html2 <2016-12-22 Thu>
 
-CHANGES IN VERSION 1.17.0
--------------------------
- o Bioconductor devel 3.5
+- new Bioconductor release
  
-CHANGES IN VERSION 1.16.0
+Changes in version 1.17.2
 -------------------------
- o Bioconductor release 3.4
 
-CHANGES IN VERSION 1.15.3
+- Update to HPA version 16.1 (2017.01.31) <2017-02-14 Tue>
+ 
+Changes in version 1.17.1
 -------------------------
- o Updating to HPA version 15, with new datasets <2016-09-14 Wed>
 
-CHANGES IN VERSION 1.15.2
+- Using travis and codecov <2016-12-22 Thu>
+- Migrate vignette to BiocStyle's html2 <2016-12-22 Thu>
+
+Changes in version 1.17.0
 -------------------------
-o Version bump to trigger package rebuilding now that purl()'ing issue
+
+- Bioconductor devel 3.5
+ 
+Changes in version 1.16.0
+-------------------------
+
+- Bioconductor release 3.4
+
+Changes in version 1.15.3
+-------------------------
+
+- Updating to HPA version 15, with new datasets <2016-09-14 Wed>
+
+Changes in version 1.15.2
+-------------------------
+
+- Version bump to trigger package rebuilding now that purl()'ing issue
   has been correctly identified. knitr does not create purl()'ed
   (Stangle equivalent) .R files if _R_CHECK_TIMINGS_ is set, which the
   build system was setting. Now it's not set, so these .R files are
@@ -29,76 +47,93 @@ o Version bump to trigger package rebuilding now that purl()'ing issue
   more. r117512 | d.tenenbaum | 2016-05-15 21:14:22 +0100 (Sun, 15 May
   2016) | 6 lines
 
-CHANGES IN VERSION 1.15.1
+Changes in version 1.15.1
 -------------------------
-o Bump version of all packages that use knitr for vignettes. This is
+
+- Bump version of all packages that use knitr for vignettes. This is
   because of an issue (now fixed) in knitr which failed to create
   purl()'ed R files from vignette sources and include them in the
   package. This version bump will cause these packages to propagate
   with those R files included. r117081 | d.tenenbaum | 2016-05-03
   22:30:44 +0100 (Tue, 03 May 2016) | 2 lines
 
-CHANGES IN VERSION 1.15.0
+Changes in version 1.15.0
 -------------------------
- o Bioc version 3.3
 
-CHANGES IN VERSION 1.13.0
--------------------------
- o Bioc version 3.1
+- Bioc version 3.3
 
-CHANGES IN VERSION 1.11.1
+Changes in version 1.13.0
 -------------------------
- o unit tests <2015-06-30 Tue>
+
+- Bioc version 3.1
+
+Changes in version 1.11.1
+-------------------------
+
+- unit tests <2015-06-30 Tue>
  
-CHANGES IN VERSION 1.11.0
+Changes in version 1.11.0
 -------------------------
- o Bio version 3.2 (devel)
 
-CHANGES IN VERSION 1.10.0
+- Bio version 3.2 (devel)
+
+Changes in version 1.10.0
 -------------------------
- o Bio version 3.1 (release)
 
-CHANGES IN VERSION 1.9.1
-------------------------
- o Updated to HPA version 13 <2014-11-15 Sat>
- o Use BiocStyle for vignette <2014-11-15 Sat>
+- Bio version 3.1 (release)
 
-CHANGES IN VERSION 1.3.1
+Changes in version 1.9.1
 ------------------------
- o Updated to HPA version 11 <2013-04-11 Thu>
 
-CHANGES IN VERSION 1.3.0
-------------------------
- o Bioc 2.13 devel version bump
+- Updated to HPA version 13 <2014-11-15 Sat>
+- Use BiocStyle for vignette <2014-11-15 Sat>
 
-CHANGES IN VERSION 1.2.0
+Changes in version 1.3.1
 ------------------------
- o Bioc 2.12 stable version bump
 
-CHANGES IN VERSION 1.1.2
+- Updated to HPA version 11 <2013-04-11 Thu>
+
+Changes in version 1.3.0
 ------------------------
- o Vignette update for knitr 1.0 compatibility,
+
+- Bioc 2.13 devel version bump
+
+Changes in version 1.2.0
+------------------------
+
+- Bioc 2.12 stable version bump
+
+Changes in version 1.1.2
+------------------------
+
+- Vignette update for knitr 1.0 compatibility,
    thanks Dan! <2013-01-15 Tue>
 
-CHANGES IN VERSION 1.1.1
+Changes in version 1.1.1
 ------------------------
- o fixing vignette <2012-10-02 Tue>
 
-CHANGES IN VERSION 1.1.0
+- fixing vignette <2012-10-02 Tue>
+
+Changes in version 1.1.0
 ------------------------
- o version bump for new devel <2012-10-01 Mon>
 
-CHANGES IN VERSION 0.99.1
+- version bump for new devel <2012-10-01 Mon>
+
+
+Changes in version 0.99.1
 -------------------------
- o Added collate field <2012-09-14 Fri>
- o Updated to HPA version 10 <2012-09-15 Sat>
- o Updated installation part in section to use 
+
+- Added collate field <2012-09-14 Fri>
+- Updated to HPA version 10 <2012-09-15 Sat>
+- Updated installation part in section to use 
    biocLite <2012-09-15 Sat>
 
-CHANGES IN VERSION 0.99.0
+Changes in version 0.99.0
 -------------------------
- o Added vignette <2012-09-06 Thu>
 
-CHANGES IN VERSION 0.1.0
+- Added vignette <2012-09-06 Thu>
+
+Changes in version 0.1.0
 ------------------------
- o Initial commit <2012-09-06 Thu>
+
+- Initial commit <2012-09-06 Thu>
