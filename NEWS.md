@@ -1,12 +1,17 @@
 # hpar 1.22
 
-## Changes in version 1.22.1
+## Changes in version 1.22.2
+
+- Rename 16.1 objects <2018-05-23 Wed>
+
+## Changes in version 1.23.1
 
 - Update to HPA version 18
 
 ## Changes in version 1.22.0
 
 - New Bioconductor release
+
 # hpar 1.21
 
 ## Changes in version 1.21.1
