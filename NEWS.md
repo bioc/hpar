@@ -1,10 +1,6 @@
-# hpar 1.33
+# hpar 1.32
 
-## Changes in version 1.33.2
-
-- Nothing yet
-
-## Changes in version 1.33.1
+## Changes in version 1.32.1
 
 - Update to HPA release 19.3 (2020.03.06) <2020-10-26 Mon>
 - New release for Bioconductor devel 3.12 <2020-10-26 Mon>
@@ -13,9 +9,9 @@
 - Updated the documentation and docs folder for pkgdown <2020-10-29 Thu>
 - Automated `allHparData()` <2020-10-29 Thu>
 
-## Changes in version 1.33.0
+## Changes in version 1.32.0
 
-- New Bioc devel version
+- New Bioc ree=lease version
 
 # hpar 1.29
 
